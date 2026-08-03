@@ -34,7 +34,7 @@ Proiectul automatizează colectarea zilnică a job-urilor E-INFRA din România, 
 
 ## License
 
-Copyright (c) 2024-2026 BOGA SEBASTIAN-NICOLAE
+Copyright (c) 2026 Alexandra Ifrim
 
 Licensed under the [MIT License](LICENSE).
 
