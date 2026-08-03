@@ -408,11 +408,21 @@ async function loadStats() {
   }
 
   try {
-    const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&status=verified&page=1`, {
-      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
-    });
-    const vData = await vRes.json();
-    document.getElementById("verifiedCount").textContent = vData.response.numFound;
+    let verified = 0;
+    let vPage = 1;
+    while (true) {
+      const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&page=${vPage}`, {
+        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+      });
+      const vData = await vRes.json();
+      const vDocs = vData.response?.docs || [];
+      if (vDocs.length === 0) break;
+      vDocs.forEach((doc) => {
+        if (doc.cif === COMPANY_CIF && ["verified", "published"].includes(doc.status)) verified++;
+      });
+      vPage++;
+    }
+    document.getElementById("verifiedCount").textContent = verified;
   } catch { document.getElementById("verifiedCount").textContent = "?"; }
 
   const now = new Date();
