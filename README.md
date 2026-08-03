@@ -1,4 +1,4 @@
-[![Oportunitati SI Cariere](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
+[![Oportunitati si Cariere](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
 [![Automation Tests](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg)](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
