@@ -9,7 +9,7 @@
 
 # job_seeker_ro_spider — E-INFRA S.A. Scraper
 
-**job_seeker_ro_spider** — un scraper pentru job-urile E-INFRA S.A. din România. Extrage anunțurile publicate de departamentul [E-INFRA](https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA) pe board-ul applytojob al grupului și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
+**job_seeker_ro_spider** — un scraper pentru job-urile E-INFRA S.A. din România. Extrage anunțurile publicate de departamentul [E-INFRA](https://e-infra.ro/ro/cariere/) pe board-ul applytojob al grupului și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
 
 > **🌱 Derived scraper.** Acest repo este derivat din [electrogrup-sa-python-scraper](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper), implementarea de referință pentru scraper-ele Python din ecosistemul peviitor.ro.
 
