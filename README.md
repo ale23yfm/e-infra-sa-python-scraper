@@ -9,28 +9,28 @@
 
 # job_seeker_ro_spider — E-INFRA S.A. Scraper
 
-**job_seeker_ro_spider** — un scraper pentru job-urile E-INFRA S.A. din România. Extrage anunțurile publicate de departamentul [E-INFRA](https://e-infra.ro/ro/cariere/) pe board-ul applytojob al grupului și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
+**job_seeker_ro_spider** — a scraper for E-INFRA S.A. jobs in Romania. It collects the announcements published by the [E-INFRA](https://e-infra.ro/ro/cariere/) department on the group's applytojob board and publishes them to [peviitor.ro](https://peviitor.ro) through the Peviitor API.
 
-> **🌱 Derived scraper.** Acest repo este derivat din [electrogrup-sa-python-scraper](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper), implementarea de referință pentru scraper-ele Python din ecosistemul peviitor.ro.
+> **🌱 Derived scraper.** This repository is derived from [electrogrup-sa-python-scraper](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper), the reference implementation for Python scrapers in the peviitor.ro ecosystem.
 
 ## Overview
 
-Proiectul automatizează colectarea zilnică a job-urilor E-INFRA din România, menținând board-ul peviitor.ro la zi cu cele mai recente oportunități de carieră.
+The project automates the daily collection of E-INFRA jobs in Romania, keeping the peviitor.ro board up to date with the latest career opportunities.
 
 ## Features
 
-- Extrage job-uri din board-ul applytojob al grupului E-INFRA (filtru `?department=E-INFRA`)
-- Job-uri ANOFM suplimentare prin CIF
-- Validează compania via ANAF (CUI, status activ/inactiv, adresă completă) cu fallback CUIScan
-- **Cache ANAF** — nu lovește API-urile la fiecare scrape
-- **Fallback la cache stale / config** dacă ANAF e indisponibil
-- Cross-validează cu Peviitor API
-- Șterge job-urile stale (de pe site dar nu și în Peviitor)
-- Stochează în Peviitor API (job core + company core)
-- Generează `docs/jobs.md` automat — accesibil pe GitHub Pages
-- **Identitate companie într-un singur fișier** (`scraper/config/company.json`)
-- GitHub Actions: scrape zilnic + testare automată (unit, integration, e2e, consistency)
-- Se identifică prin User-Agent: `job_seeker_ro_spider`
+- Extracts jobs from the E-INFRA group applytojob board (`?department=E-INFRA` filter)
+- Additional ANOFM jobs via CIF
+- Validates the company via ANAF (CUI, active/inactive status, full address) with CUIScan fallback
+- **ANAF cache** — does not hit the APIs on every scrape
+- **Stale cache / config fallback** when ANAF is unavailable
+- Cross-validates against the Peviitor API
+- Deletes stale jobs (present on the site but not in Peviitor)
+- Stores to the Peviitor API (job core + company core)
+- Generates `docs/jobs.md` automatically — accessible on GitHub Pages
+- **Company identity in a single file** (`scraper/config/company.json`)
+- GitHub Actions: daily scrape + automated testing (unit, integration, e2e, consistency)
+- Identifies itself through the User-Agent: `job_seeker_ro_spider`
 
 ## License
 
