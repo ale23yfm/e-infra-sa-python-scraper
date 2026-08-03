@@ -97,3 +97,60 @@ def test_check_url_redirect_invalid(mock_head):
     mock_head.return_value.status_code = 302
     result = api.check_url("https://example.com")
     assert result["valid"] is False
+
+
+BOARD = "https://electrogrup.applytojob.com/apply/jobs/details/"
+
+
+def test_run_verification_read_only_by_default(monkeypatch, capsys):
+    monkeypatch.setattr(api, "query_solr", lambda cif: {
+        "numFound": 2,
+        "docs": [
+            {"url": BOARD + "dead1", "location": [], "workmode": None, "title": "A"},
+            {"url": "https://www.ejobs.ro/job/x", "location": [], "workmode": None, "title": "B"},
+        ],
+    })
+    monkeypatch.setattr(api, "check_url", lambda url: {"url": url, "status": 404, "valid": False})
+    delete_mock = mock.Mock()
+    monkeypatch.setattr(api, "delete_job_by_url", delete_mock)
+
+    api.run_verification("38647188")
+
+    delete_mock.assert_not_called()
+    assert "nothing deleted" in capsys.readouterr().out
+
+
+def test_run_verification_delete_scoped_to_prefix(monkeypatch):
+    docs = [
+        {"url": BOARD + "dead1", "location": [], "workmode": None, "title": "A"},
+        {"url": "https://www.ejobs.ro/job/x", "location": [], "workmode": None, "title": "B"},
+        {"url": BOARD + "ok1", "location": [], "workmode": None, "title": "C"},
+    ]
+    monkeypatch.setattr(api, "query_solr", lambda cif: {"numFound": len(docs), "docs": docs})
+
+    def _check(url):
+        valid = url.endswith("ok1")
+        return {"url": url, "status": 200 if valid else 404, "valid": valid}
+
+    monkeypatch.setattr(api, "check_url", _check)
+    delete_mock = mock.Mock()
+    monkeypatch.setattr(api, "delete_job_by_url", delete_mock)
+
+    api.run_verification("38647188", delete=True, prefix=BOARD)
+
+    assert delete_mock.call_count == 1
+    assert delete_mock.call_args.args[0] == BOARD + "dead1"
+
+
+def test_run_verification_delete_requires_prefix(monkeypatch):
+    monkeypatch.setattr(api, "query_solr", lambda cif: {
+        "numFound": 1,
+        "docs": [{"url": BOARD + "dead1", "location": [], "workmode": None, "title": "A"}],
+    })
+    monkeypatch.setattr(api, "check_url", lambda url: {"url": url, "status": 404, "valid": False})
+    delete_mock = mock.Mock()
+    monkeypatch.setattr(api, "delete_job_by_url", delete_mock)
+
+    api.run_verification("38647188", delete=True, prefix=None)
+
+    delete_mock.assert_not_called()
