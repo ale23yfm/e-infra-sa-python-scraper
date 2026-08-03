@@ -1,12 +1,11 @@
-[![Oportunitati SI Cariere](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
-[![Automation Tests](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg)](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml)
+[![Oportunitati SI Cariere](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
+[![Automation Tests](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg)](https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
-[![Test Results](https://img.shields.io/badge/test--results-HTML-9b59b6)](https://peviitor-scrapers.github.io/e-infra-sa-python-scraper/test-results/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpeviitor.ro&label=peviitor.ro)](https://peviitor.ro)
 [![API](https://img.shields.io/website?url=https%3A%2F%2Fapi.peviitor.ro%2F&label=api.peviitor.ro)](https://api.peviitor.ro/)
-[![GitHub Pages](https://img.shields.io/github/deployments/peviitor-scrapers/e-infra-sa-python-scraper/github-pages?label=GitHub%20Pages)](https://peviitor-scrapers.github.io/e-infra-sa-python-scraper/)
+[![GitHub Pages](https://img.shields.io/github/deployments/ale23yfm/e-infra-sa-python-scraper/github-pages?label=GitHub%20Pages)](https://ale23yfm.github.io/e-infra-sa-python-scraper/)
 
 # job_seeker_ro_spider — E-INFRA S.A. Scraper
 

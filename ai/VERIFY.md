@@ -32,7 +32,10 @@ Expect: `>= 1` jobs scraped, unique URLs, titles present, E-INFRA department fil
 curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=38647188&rows=500"
 ```
 
-Expect: `success: true` and `data` matching the scraped job count.
+Expect: `success: true`. Note CIF `38647188` is shared with other peviitor
+scrapers (jobviewtrack, ejobs, olx, multijobs, targuldecariere), so the
+total count includes their jobs; confirm the scraped applytojob board URLs
+are present.
 
 ## Full pipeline
 
@@ -46,3 +49,30 @@ Then check:
 - `docs/jobs.md` regenerated with the job list.
 - `docs/company.json` mirrors `scraper/config/company.json`.
 - SOLR count matches scraped count (minus filtered locations).
+
+## GitHub Pages
+
+```bash
+gh api repos/ale23yfm/e-infra-sa-python-scraper/pages --jq .html_url
+curl -s -o /dev/null -w "%{http_code}\n" https://ale23yfm.github.io/e-infra-sa-python-scraper/
+```
+
+Expect: `https://ale23yfm.github.io/e-infra-sa-python-scraper/` and HTTP `200`.
+The site is built from `docs/` on `main` (source: branch `main`, path `/docs`).
+
+## GitHub Actions
+
+For each workflow in `.github/workflows/`, run it from **Actions** → *Run workflow* (on `main`) and check all jobs are green:
+
+| Workflow | Trigger | Ce verifici |
+|----------|---------|-------------|
+| `job-seeker-ro-spider.yml` | `workflow_dispatch` | Scraperul rulează → job-uri în API + `docs/jobs.md` generat |
+| `automation-testing.yml` | `workflow_dispatch` | Toate testele + validare job-uri |
+
+After a successful run, verify via API that the company jobs appear:
+
+```bash
+curl -s "https://api.peviitor.ro/v1/scraper/jobs/?cif=38647188&rows=500"
+```
+
+Check `docs/jobs.md` was regenerated and jobs are visible on https://peviitor.ro (CIF `38647188`).
