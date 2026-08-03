@@ -7,8 +7,8 @@
 - Validate job URLs periodically:
 
 ```bash
-python3 -m scraper.validate_jobs 9256208 --mode content --dry-run
-python3 -m scraper.validate_jobs 9256208 --mode content --delete
+python3 -m scraper.validate_jobs 38647188 --mode content --dry-run
+python3 -m scraper.validate_jobs 38647188 --mode content --delete
 ```
 
 ## Board structure changes

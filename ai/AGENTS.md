@@ -4,7 +4,7 @@ Instructions for AI agents working in this repository.
 
 ## Project
 
-Python scraper that reads job listings from the ELECTROGRUP SA applytojob
+Python scraper that reads job listings from the E-INFRA S.A. applytojob
 board and publishes them to peviitor.ro through the **v1 API**
 (`https://api.peviitor.ro/v1`). It is a Python port of the Node.js EPAM
 template and must follow the same API contract.
@@ -25,7 +25,7 @@ template and must follow the same API contract.
 python3 -m pytest tests/unit tests/consistency   # fast tests (no network)
 python3 -m pytest tests/e2e                      # real board scrape
 python3 -m scraper.index                         # full scrape + publish
-python3 -m scraper.validate_jobs 9256208 --head  # validate job URLs
+python3 -m scraper.validate_jobs 38647188 --head  # validate job URLs
 ```
 
 ## Key files

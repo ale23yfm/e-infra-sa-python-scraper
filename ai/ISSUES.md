@@ -3,7 +3,7 @@
 ## Reporting
 
 Open an issue in
-[peviitor-scrapers/electrogrup-sa-python-scraper/issues](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/issues).
+[peviitor-scrapers/e-infra-sa-python-scraper/issues](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/issues).
 
 ## Common issues
 
@@ -17,4 +17,4 @@ Open an issue in
 ## Escalation
 
 For peviitor API problems, contact the peviitor maintainers with the CIF
-`9256208` and the failing endpoint.
+`38647188` and the failing endpoint.

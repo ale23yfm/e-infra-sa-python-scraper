@@ -39,8 +39,8 @@ Standardized job document published to peviitor SOLR.
 {
   "url": "https://electrogrup.applytojob.com/apply/jobs/details/bClwIJnZdv",
   "title": "Inginer Ofertare Energetic",
-  "company": "ELECTROGRUP SA",
-  "cif": "09256208",
+  "company": "E-INFRA S.A.",
+  "cif": "38647188",
   "location": ["Bucuresti"],
   "workmode": "on-site",
   "date": "2026-08-03T00:00:00Z",

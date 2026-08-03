@@ -29,13 +29,13 @@ takes precedence over the static config when available.
 
 ```json
 {
-  "id": "9256208",
-  "company": "ELECTROGRUP SA",
-  "brand": "ELECTROGRUP",
+  "id": "38647188",
+  "company": "E-INFRA S.A.",
+  "brand": "E-INFRA",
   "status": "activ",
-  "location": ["Cluj-Napoca"],
-  "website": ["https://electrogrup.ro"],
-  "career": ["https://electrogrup.applytojob.com/apply/jobs/"],
-  "scraperFile": "https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
+  "location": ["Bucuresti"],
+  "website": ["https://e-infra.ro"],
+  "career": ["https://e-infra.ro/careers/"],
+  "scraperFile": "https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
 }
 ```

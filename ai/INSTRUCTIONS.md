@@ -14,10 +14,10 @@ python3 -m scraper.index
 
 This will:
 
-1. Query existing jobs in peviitor SOLR for CIF `9256208`.
+1. Query existing jobs in peviitor SOLR for CIF `38647188`.
 2. Validate the company via ANAF (fallback CUIScan).
 3. Upsert the company core (with `scraperFile`).
-4. Scrape the applytojob board filtered by `?department=ELECTROGRUP`.
+4. Scrape the applytojob board filtered by `?department=E-INFRA..
 5. Merge ANOFM jobs (unless `--test`).
 6. Transform jobs (Romanian city filter, workmode normalization).
 7. Write `scraper/jobs.json`, `docs/jobs.md`, `docs/company.json`.
@@ -27,9 +27,9 @@ This will:
 ## 3. Validate job URLs
 
 ```bash
-python3 -m scraper.validate_jobs 9256208 --mode head      # dry check
-python3 -m scraper.validate_jobs 9256208 --mode content   # content check
-python3 -m scraper.validate_jobs 9256208 --delete         # delete invalid
+python3 -m scraper.validate_jobs 38647188 --mode head      # dry check
+python3 -m scraper.validate_jobs 38647188 --mode content   # content check
+python3 -m scraper.validate_jobs 38647188 --delete         # delete invalid
 ```
 
 ## 4. Tests

@@ -13,10 +13,10 @@ Expect: all green, no network needed.
 ## Live — company
 
 ```bash
-python3 -c "from scraper.anaf import get_company_from_anaf; print(get_company_from_anaf('9256208'))"
+python3 -c "from scraper.anaf import get_company_from_anaf; print(get_company_from_anaf('38647188'))"
 ```
 
-Expect: `denumire == "ELECTROGRUP SA"`, `cif == "9256208"`.
+Expect: `denumire == "E-INFRA S.A."`, `cif == "38647188"`.
 
 ## Live — board
 
@@ -24,12 +24,12 @@ Expect: `denumire == "ELECTROGRUP SA"`, `cif == "9256208"`.
 python3 -m pytest tests/e2e
 ```
 
-Expect: `>= 40` jobs scraped, unique URLs, titles present.
+Expect: `>= 1` jobs scraped, unique URLs, titles present, E-INFRA department filter.
 
 ## Live — peviitor SOLR
 
 ```bash
-curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=09256208&rows=500"
+curl "https://api.peviitor.ro/v1/scraper/jobs/?cif=38647188&rows=500"
 ```
 
 Expect: `success: true` and `data` matching the scraped job count.

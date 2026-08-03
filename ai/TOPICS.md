@@ -8,5 +8,5 @@ Suggested GitHub topics for the repository:
 - scraping
 - python
 - romania
-- electrogrup
+- e-infra
 - applytojob

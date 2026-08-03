@@ -1,26 +1,26 @@
-[![Oportunitati SI Cariere](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
-[![Automation Tests](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg)](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/automation-testing.yml)
+[![Oportunitati SI Cariere](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg)](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml)
+[![Automation Tests](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg)](https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/automation-testing.yml)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
-[![Test Results](https://img.shields.io/badge/test--results-HTML-9b59b6)](https://peviitor-scrapers.github.io/electrogrup-sa-python-scraper/test-results/)
+[![Test Results](https://img.shields.io/badge/test--results-HTML-9b59b6)](https://peviitor-scrapers.github.io/e-infra-sa-python-scraper/test-results/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpeviitor.ro&label=peviitor.ro)](https://peviitor.ro)
 [![API](https://img.shields.io/website?url=https%3A%2F%2Fapi.peviitor.ro%2F&label=api.peviitor.ro)](https://api.peviitor.ro/)
-[![GitHub Pages](https://img.shields.io/github/deployments/peviitor-scrapers/electrogrup-sa-python-scraper/github-pages?label=GitHub%20Pages)](https://peviitor-scrapers.github.io/electrogrup-sa-python-scraper/)
+[![GitHub Pages](https://img.shields.io/github/deployments/peviitor-scrapers/e-infra-sa-python-scraper/github-pages?label=GitHub%20Pages)](https://peviitor-scrapers.github.io/e-infra-sa-python-scraper/)
 
-# job_seeker_ro_spider — ELECTROGRUP SA Scraper
+# job_seeker_ro_spider — E-INFRA S.A. Scraper
 
-**job_seeker_ro_spider** — un scraper pentru job-urile ELECTROGRUP SA din România. Extrage anunțurile de pe board-ul [applytojob](https://electrogrup.applytojob.com/apply/jobs/?department=ELECTROGRUP) și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
+**job_seeker_ro_spider** — un scraper pentru job-urile E-INFRA S.A. din România. Extrage anunțurile publicate de departamentul [E-INFRA](https://electrogrup.applytojob.com/apply/jobs/?department=E-INFRA) pe board-ul applytojob al grupului și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
 
-> **🌱 Template repo.** Acest repo este **implementarea de referință** pentru toate scraper-ele Python din ecosistemul peviitor.ro. Alte scraper-e sunt derivate din acesta. Vezi [ai/AI-DERIVATION-GUIDE.md](ai/AI-DERIVATION-GUIDE.md).
+> **🌱 Derived scraper.** Acest repo este derivat din [electrogrup-sa-python-scraper](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper), implementarea de referință pentru scraper-ele Python din ecosistemul peviitor.ro.
 
 ## Overview
 
-Proiectul automatizează colectarea zilnică a job-urilor ELECTROGRUP din România, menținând board-ul peviitor.ro la zi cu cele mai recente oportunități de carieră.
+Proiectul automatizează colectarea zilnică a job-urilor E-INFRA din România, menținând board-ul peviitor.ro la zi cu cele mai recente oportunități de carieră.
 
 ## Features
 
-- Extrage job-uri din board-ul applytojob al ELECTROGRUP (filtru `?department=ELECTROGRUP`)
+- Extrage job-uri din board-ul applytojob al grupului E-INFRA (filtru `?department=E-INFRA`)
 - Job-uri ANOFM suplimentare prin CIF
 - Validează compania via ANAF (CUI, status activ/inactiv, adresă completă) cu fallback CUIScan
 - **Cache ANAF** — nu lovește API-urile la fiecare scrape
