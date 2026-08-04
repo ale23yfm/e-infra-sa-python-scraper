@@ -13,7 +13,7 @@ from .job_validator import validate_by_browser, validate_by_content, validate_by
 from .config import company_config, scraper_config
 
 
-BOARD_PREFIX = f"{scraper_config['apiBase']}/apply/jobs/details/"
+BOARD_PREFIX = scraper_config.get("jobDetailsPrefix") or f"{scraper_config['apiBase']}/apply/jobs/details/"
 
 
 def main():

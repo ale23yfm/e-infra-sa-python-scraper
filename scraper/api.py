@@ -233,5 +233,5 @@ if __name__ == "__main__":
                         help="Delete invalid jobs under the board URL prefix")
     args = parser.parse_args()
 
-    prefix = f"{scraper_config['apiBase']}/apply/jobs/details/"
+    prefix = scraper_config.get("jobDetailsPrefix") or f"{scraper_config['apiBase']}/apply/jobs/details/"
     run_verification(args.cif, delete=args.delete, prefix=prefix)
