@@ -8,7 +8,7 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-08-03 |
+| LastScraped | 2026-08-04 |
 
 ## Jobs (4)
 
@@ -37,4 +37,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-03T11:39:09Z_
+_Generated at 2026-08-04T08:50:22Z_
