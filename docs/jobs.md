@@ -8,7 +8,7 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-08-04 |
+| LastScraped | 2026-08-05 |
 
 ## Jobs (4)
 
@@ -20,7 +20,7 @@
 
 ### Learning & Development Specialist (L&D)
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/2YEB9vBtMS](https://electrogrup.applytojob.com/apply/jobs/details/2YEB9vBtMS)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/muOjB83503](https://electrogrup.applytojob.com/apply/jobs/details/muOjB83503)
 - **Location**: Bucharest
 - **Status**: scraped
 
@@ -37,4 +37,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-04T08:50:22Z_
+_Generated at 2026-08-05T08:47:38Z_
