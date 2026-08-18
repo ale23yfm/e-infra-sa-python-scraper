@@ -8,9 +8,9 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-08-17 |
+| LastScraped | 2026-08-18 |
 
-## Jobs (4)
+## Jobs (6)
 
 ### Customer & Marketing Insights Lead
 
@@ -22,6 +22,18 @@
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/muOjB83503](https://electrogrup.applytojob.com/apply/jobs/details/muOjB83503)
 - **Location**: Bucharest
+- **Status**: scraped
+
+### SCADA Network & Cybersecurity Engineer
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/bvv1tky7Ih](https://electrogrup.applytojob.com/apply/jobs/details/bvv1tky7Ih)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### SCADA Network & Cybersecurity Engineer
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/5PA7JOcQ6d](https://electrogrup.applytojob.com/apply/jobs/details/5PA7JOcQ6d)
+- **Location**: Cluj-Napoca
 - **Status**: scraped
 
 ### Specialist Senior IT Security Operations
@@ -37,4 +49,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-17T07:09:19Z_
+_Generated at 2026-08-18T06:55:57Z_
