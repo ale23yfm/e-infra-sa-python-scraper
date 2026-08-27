@@ -8,9 +8,9 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-08-26 |
+| LastScraped | 2026-08-27 |
 
-## Jobs (6)
+## Jobs (5)
 
 ### Customer & Marketing Insights Lead
 
@@ -42,11 +42,5 @@
 - **Location**: BUCURESTI
 - **Status**: scraped
 
-### System Administrator L2
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/YwR9IsZiXi](https://electrogrup.applytojob.com/apply/jobs/details/YwR9IsZiXi)
-- **Location**: Turda
-- **Status**: scraped
-
 ---
-_Generated at 2026-08-26T07:00:32Z_
+_Generated at 2026-08-27T17:33:48Z_
