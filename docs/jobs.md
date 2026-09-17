@@ -8,15 +8,9 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-09-15 |
+| LastScraped | 2026-09-17 |
 
-## Jobs (5)
-
-### Customer & Marketing Insights Lead
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/mW40OEu6wB](https://electrogrup.applytojob.com/apply/jobs/details/mW40OEu6wB)
-- **Location**: Bucuresti
-- **Status**: scraped
+## Jobs (4)
 
 ### Learning & Development Specialist (L&D) - on site
 
@@ -43,4 +37,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-15T11:33:59Z_
+_Generated at 2026-09-17T11:28:32Z_
