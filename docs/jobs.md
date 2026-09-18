@@ -8,9 +8,15 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-09-17 |
+| LastScraped | 2026-09-18 |
 
-## Jobs (4)
+## Jobs (5)
+
+### Economist (Contract pe perioadă determinata – 2 ani - on-site)
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/oGtJRnEtGr](https://electrogrup.applytojob.com/apply/jobs/details/oGtJRnEtGr)
+- **Location**: Cluj-Napoca
+- **Status**: scraped
 
 ### Learning & Development Specialist (L&D) - on site
 
@@ -37,4 +43,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-17T11:28:32Z_
+_Generated at 2026-09-18T11:01:37Z_
