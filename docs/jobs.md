@@ -8,11 +8,11 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-09-20 |
+| LastScraped | 2026-09-21 |
 
 ## Jobs (5)
 
-### Economist (Contract pe perioadă determinata – 2 ani - on-site)
+### Economist (Contract pe perioada determinata – 2 ani - on-site)
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/oGtJRnEtGr](https://electrogrup.applytojob.com/apply/jobs/details/oGtJRnEtGr)
 - **Location**: Cluj-Napoca
@@ -43,4 +43,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-20T11:08:18Z_
+_Generated at 2026-09-21T12:36:52Z_
