@@ -8,9 +8,9 @@
 | Brand | E-INFRA |
 | Website | https://e-infra.ro |
 | Career | https://e-infra.ro/careers/ |
-| LastScraped | 2026-09-24 |
+| LastScraped | 2026-09-25 |
 
-## Jobs (5)
+## Jobs (6)
 
 ### Economist (Contract pe perioada determinata – 2 ani - on-site)
 
@@ -24,16 +24,16 @@
 - **Location**: Bucharest
 - **Status**: scraped
 
-### SCADA Network & Cybersecurity Engineer
+### Network & Security Engineer – OT / Industrial Networks
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/qkH619qwLL](https://electrogrup.applytojob.com/apply/jobs/details/qkH619qwLL)
-- **Location**: Cluj-Napoca
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/etRl3D4zHP](https://electrogrup.applytojob.com/apply/jobs/details/etRl3D4zHP)
+- **Location**: Bucuresti
 - **Status**: scraped
 
-### SCADA Network & Cybersecurity Engineer
+### Network & Security Engineer – OT / Industrial Networks
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/62lXpSE0q9](https://electrogrup.applytojob.com/apply/jobs/details/62lXpSE0q9)
-- **Location**: Bucuresti
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/XU0HhNMQJg](https://electrogrup.applytojob.com/apply/jobs/details/XU0HhNMQJg)
+- **Location**: Cluj-Napoca
 - **Status**: scraped
 
 ### Specialist Senior IT Security Operations
@@ -42,5 +42,11 @@
 - **Location**: BUCURESTI
 - **Status**: scraped
 
+### Specialist Administrare Retele Industriale (OT)
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/JbFePKBFiy](https://electrogrup.applytojob.com/apply/jobs/details/JbFePKBFiy)
+- **Location**: Cluj-Napoca
+- **Status**: scraped
+
 ---
-_Generated at 2026-09-24T11:33:28Z_
+_Generated at 2026-09-25T11:39:40Z_
