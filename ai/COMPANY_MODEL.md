@@ -46,6 +46,6 @@ config when available.
   "location": ["Bucuresti"],
   "website": ["https://e-infra.ro"],
   "career": ["https://e-infra.ro/careers/"],
-  "scraperFile": "https://github.com/ale23yfm/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
 }
 ```

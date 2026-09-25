@@ -17,13 +17,13 @@ Toate scraper-ele derivate din acest template **MUST** avea **EXACT 2 topic-uri*
 ## Cum verifici
 
 ```bash
-gh repo view ale23yfm/e-infra-sa-python-scraper --json repositoryTopics
+gh repo view peviitor-scrapers/e-infra-sa-python-scraper --json repositoryTopics
 ```
 
 ## Cum setezi
 
 ```bash
-gh repo edit ale23yfm/e-infra-sa-python-scraper --add-topic job-seeker-ro-spider --add-topic peviitor-ro
+gh repo edit peviitor-scrapers/e-infra-sa-python-scraper --add-topic job-seeker-ro-spider --add-topic peviitor-ro
 ```
 
-sau manual pe `https://github.com/ale23yfm/e-infra-sa-python-scraper/settings`.
+sau manual pe `https://github.com/peviitor-scrapers/e-infra-sa-python-scraper/settings`.
